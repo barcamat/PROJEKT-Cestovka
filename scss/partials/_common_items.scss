@@ -1,0 +1,33 @@
+@use 'variables';
+
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body{
+    color:variables.$clr_font-white;
+    font-family:variables.$font_montserrat;
+    padding:40px 0 20px 0;
+    font-size: 16px;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:480px;
+    margin: 36px auto 0 auto;
+
+    @media screen and (min-width:768px){
+        width:768px;
+    }
+
+    @media screen and (min-width:960px){
+        width:960px;
+    }
+}
+
+.sections_headline {
+    color:variables.$clr_font-black;
+    font-size: 24px;
+    margin-bottom: 28px;
+    margin-top: 0;
+}

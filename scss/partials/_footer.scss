@@ -1,0 +1,11 @@
+@use 'variables';
+
+.section_footer {
+    background-color: variables.$clr_footer-background;
+    text-align: center;
+    padding:20px;
+}
+
+.section_footer p {
+    margin:0;
+}

@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 480px;
+  margin: 36px auto;
+}/*# sourceMappingURL=common_items.css.map */

@@ -1,0 +1,98 @@
+@use 'variables';
+
+.big-box_up {
+    background-image: url(../../images/homepage/palmy.png);
+    background-size: cover;
+}
+.small-box_up-1 {
+    background-image: url(../../images/homepage/jezero2.png);
+    background-size: cover;
+    margin:20px 0;
+
+    @media screen and (min-width:768px){
+        flex: 0 0 48.5%;
+        margin: 20px 10px 20px 0px;
+    }
+}
+.small-box_up-2 {
+    background-image: url(../../images/homepage/nakole.png);
+    background-size: cover;
+
+    @media screen and (min-width:768px){
+    margin: 20px 0 20px 10px;
+    }
+}
+.big-box_down {
+    background-image: url(../../images/homepage/lodicka.png);
+    background-size: cover;
+}
+.small-box_down-1 {
+    background-image: url(../../images/homepage/zatoka.png);
+    background-size: cover;
+    margin:20px 0;
+
+    @media screen and (min-width:768px){
+        flex: 0 0 48.5%;
+        margin: 20px 10px 20px 0px;
+    }
+}
+.small-box_down-2 {
+    background-image: url(../../images/homepage/nakole.png);
+    background-size: cover;
+
+    @media screen and (min-width:768px){
+        flex: 0 0 48.5%;
+        margin: 20px 0 20px 10px;
+    }
+}
+
+.box_price {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    background-color:variables.$clr_orange;
+    padding: 10px;
+    margin:20px;
+}
+
+.big-box_headline {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 80px 50px 16px 20px;
+
+    @media screen and (min-width:768px){
+        margin: 225px 0 16px 20px;
+    }
+}
+
+.big-box_description {
+    display: inline-block;
+    font-family:variables.$font_open-sans;
+    margin: 0 0 21px 20px;
+}
+
+.small-box_description {
+    font-size: 20px;
+    margin:36px 296px 23px 20px;
+    display: inline-block;
+    font-weight: bold;
+
+    @media screen and (min-width:768px){
+        margin:66px 200px 23px 20px;
+        font-size: 18px;
+    }
+
+}
+
+.small-box_description_kanarske-ostrovy{
+    margin:66px 110px 23px 20px;
+
+    @media screen and (min-width:768px){
+        margin:66px 0px 23px 20px;
+    }
+}
+.small-box_flex {
+    @media screen and (min-width:768px){
+        display: flex;
+    }
+}

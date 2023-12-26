@@ -1,0 +1,28 @@
+@use 'variables';
+
+.section_news {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.news_grey-box {
+    background-color: variables.$clr_grey-box;
+    padding: 20px 0 20px 20px;
+    margin: 10px 0;
+}
+.news_date {
+    color:#888888;
+    display: inline-block;
+    font-weight: 700px;
+    margin: 0;
+}
+.news_headline {
+    color:variables.$clr_orange;
+    font-weight: bold;
+    margin:10px 0px;
+}
+
+.news_description {
+    color:variables.$clr_font-black;
+    font-weight: 600;
+}

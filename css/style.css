@@ -1,0 +1,294 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  padding: 40px 0 20px 0;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 480px;
+  margin: 36px auto 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .container {
+    width: 960px;
+  }
+}
+
+.sections_headline {
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 28px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.header_img-logo {
+  display: block;
+  margin: 0 auto 0px auto;
+}
+@media screen and (min-width: 768px) {
+  .header_img-logo {
+    margin: 0;
+  }
+}
+
+.header_navigation_flex {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.header_navigation_link {
+  text-decoration: none;
+  color: #F03000;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.header_navigation_link:hover {
+  background-color: #F03000;
+  color: #FFFFFF;
+}
+
+.big-box_up {
+  background-image: url(../../images/homepage/palmy.png);
+  background-size: cover;
+}
+
+.small-box_up-1 {
+  background-image: url(../../images/homepage/jezero2.png);
+  background-size: cover;
+  margin: 20px 0;
+}
+@media screen and (min-width: 768px) {
+  .small-box_up-1 {
+    flex: 0 0 48.5%;
+    margin: 20px 10px 20px 0px;
+  }
+}
+
+.small-box_up-2 {
+  background-image: url(../../images/homepage/nakole.png);
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .small-box_up-2 {
+    margin: 20px 0 20px 10px;
+  }
+}
+
+.big-box_down {
+  background-image: url(../../images/homepage/lodicka.png);
+  background-size: cover;
+}
+
+.small-box_down-1 {
+  background-image: url(../../images/homepage/zatoka.png);
+  background-size: cover;
+  margin: 20px 0;
+}
+@media screen and (min-width: 768px) {
+  .small-box_down-1 {
+    flex: 0 0 48.5%;
+    margin: 20px 10px 20px 0px;
+  }
+}
+
+.small-box_down-2 {
+  background-image: url(../../images/homepage/nakole.png);
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .small-box_down-2 {
+    flex: 0 0 48.5%;
+    margin: 20px 0 20px 10px;
+  }
+}
+
+.box_price {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #F03000;
+  padding: 10px;
+  margin: 20px;
+}
+
+.big-box_headline {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 80px 50px 16px 20px;
+}
+@media screen and (min-width: 768px) {
+  .big-box_headline {
+    margin: 225px 0 16px 20px;
+  }
+}
+
+.big-box_description {
+  display: inline-block;
+  font-family: "Open sans";
+  margin: 0 0 21px 20px;
+}
+
+.small-box_description {
+  font-size: 20px;
+  margin: 36px 296px 23px 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .small-box_description {
+    margin: 66px 200px 23px 20px;
+    font-size: 18px;
+  }
+}
+
+.small-box_description_kanarske-ostrovy {
+  margin: 66px 110px 23px 20px;
+}
+@media screen and (min-width: 768px) {
+  .small-box_description_kanarske-ostrovy {
+    margin: 66px 0px 23px 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .small-box_flex {
+    display: flex;
+  }
+}
+
+.section_services {
+  margin: 39px 0 40px 0;
+}
+@media screen and (min-width: 768px) {
+  .section_services {
+    display: grid;
+    grid-template-columns: 48.8% 48.8%;
+    gap: 20px;
+  }
+}
+
+.services_grey-box_flex {
+  display: flex;
+  background-color: #F0F0F0;
+  color: #000000;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .services_grey-box_flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.services_grey-box_flex + .services_grey-box_flex {
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .services_grey-box_flex + .services_grey-box_flex {
+    margin: 0;
+  }
+}
+
+.services_grey-box_paragraphs {
+  margin: 0 0 0 20px;
+}
+@media screen and (min-width: 768px) {
+  .services_grey-box_paragraphs {
+    margin: 0;
+  }
+}
+
+.services_grey-box_headline {
+  color: #F03000;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .services_grey-box_headline {
+    text-align: center;
+  }
+}
+
+.services_grey-box_description {
+  font-family: "Open sans";
+}
+@media screen and (min-width: 768px) {
+  .services_grey-box_description {
+    text-align: center;
+  }
+}
+
+.services_grey-box_img {
+  margin-left: 12px;
+}
+@media screen and (min-width: 768px) {
+  .services_grey-box_img {
+    margin: 0 auto 20px auto;
+  }
+}
+
+.section_news {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.news_grey-box {
+  background-color: #F0F0F0;
+  padding: 20px 0 20px 20px;
+  margin: 10px 0;
+}
+
+.news_date {
+  color: #888888;
+  display: inline-block;
+  font-weight: 700px;
+  margin: 0;
+}
+
+.news_headline {
+  color: #F03000;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.news_description {
+  color: #000000;
+  font-weight: 600;
+}
+
+.section_footer {
+  background-color: #444444;
+  text-align: center;
+  padding: 20px;
+}
+
+.section_footer p {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
