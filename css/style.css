@@ -26,7 +26,7 @@ body {
 }
 @media screen and (min-width: 960px) {
   .container {
-    width: 960px;
+    width: 1160px;
   }
 }
 
@@ -77,6 +77,11 @@ body {
   background-image: url(../../images/homepage/palmy.png);
   background-size: cover;
 }
+@media screen and (min-width: 960px) {
+  .big-box_up {
+    flex: 0 0 766px;
+  }
+}
 
 .small-box_up-1 {
   background-image: url(../../images/homepage/jezero2.png);
@@ -89,6 +94,13 @@ body {
     margin: 20px 10px 20px 0px;
   }
 }
+@media screen and (min-width: 960px) {
+  .small-box_up-1 {
+    flex: 1 1 374px;
+    height: 180px;
+    margin: 0px 0px 10px 20px;
+  }
+}
 
 .small-box_up-2 {
   background-image: url(../../images/homepage/nakole.png);
@@ -99,10 +111,22 @@ body {
     margin: 20px 0 20px 10px;
   }
 }
+@media screen and (min-width: 960px) {
+  .small-box_up-2 {
+    flex: 1 1 33%;
+    height: 180px;
+    margin: 0px 0px 0px 20px;
+  }
+}
 
 .big-box_down {
   background-image: url(../../images/homepage/lodicka.png);
   background-size: cover;
+}
+@media screen and (min-width: 960px) {
+  .big-box_down {
+    flex: 0 0 766px;
+  }
 }
 
 .small-box_down-1 {
@@ -116,6 +140,13 @@ body {
     margin: 20px 10px 20px 0px;
   }
 }
+@media screen and (min-width: 960px) {
+  .small-box_down-1 {
+    flex: 1 1 374px;
+    height: 180px;
+    margin: 0px 20px 10px 0px;
+  }
+}
 
 .small-box_down-2 {
   background-image: url(../../images/homepage/nakole.png);
@@ -125,6 +156,29 @@ body {
   .small-box_down-2 {
     flex: 0 0 48.5%;
     margin: 20px 0 20px 10px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .small-box_down-2 {
+    flex: 1 1 33%;
+    height: 180px;
+    margin: 0px 20px 0px 0px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .box_images_up {
+    display: flex;
+    flex: row;
+    height: 380px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .box_images_down {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 380px;
   }
 }
 
@@ -147,6 +201,11 @@ body {
     margin: 225px 0 16px 20px;
   }
 }
+@media screen and (min-width: 960px) {
+  .big-box_headline {
+    margin: 200px 0 16px 20px;
+  }
+}
 
 .big-box_description {
   display: inline-block;
@@ -166,6 +225,12 @@ body {
     font-size: 18px;
   }
 }
+@media screen and (min-width: 960px) {
+  .small-box_description {
+    margin: 60px 110px 23px 20px;
+    display: inline-block;
+  }
+}
 
 .small-box_description_kanarske-ostrovy {
   margin: 66px 110px 23px 20px;
@@ -181,6 +246,12 @@ body {
     display: flex;
   }
 }
+@media screen and (min-width: 960px) {
+  .small-box_flex {
+    flex-direction: column;
+    height: 380px;
+  }
+}
 
 .section_services {
   margin: 39px 0 40px 0;
@@ -190,6 +261,11 @@ body {
     display: grid;
     grid-template-columns: 48.8% 48.8%;
     gap: 20px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .section_services {
+    grid-template-columns: 23.7% 23.7% 23.7% 23.7%;
   }
 }
 
@@ -259,10 +335,26 @@ body {
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 960px) {
+  .news_flex {
+    display: flex;
+  }
+}
+
 .news_grey-box {
   background-color: #F0F0F0;
   padding: 20px 0 20px 20px;
   margin: 10px 0;
+}
+@media screen and (min-width: 960px) {
+  .news_grey-box {
+    margin: 0;
+    padding: 20px;
+  }
+}
+
+.news_grey-box:nth-child(2) {
+  margin: 0 20px;
 }
 
 .news_date {
@@ -281,6 +373,11 @@ body {
 .news_description {
   color: #000000;
   font-weight: 600;
+}
+@media screen and (min-width: 960px) {
+  .news_description {
+    margin: 0;
+  }
 }
 
 .section_footer {

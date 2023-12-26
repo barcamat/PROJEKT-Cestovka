@@ -5,11 +5,26 @@
     margin-bottom: 40px;
 }
 
+.news_flex{
+    @media screen and (min-width:960px){
+        display: flex;
+    }
+}
 .news_grey-box {
     background-color: variables.$clr_grey-box;
     padding: 20px 0 20px 20px;
     margin: 10px 0;
+
+    @media screen and (min-width:960px){
+        margin:0;
+        padding: 20px;
+    }
 }
+
+.news_grey-box:nth-child(2){
+    margin: 0 20px;
+}
+
 .news_date {
     color:#888888;
     display: inline-block;
@@ -20,9 +35,15 @@
     color:variables.$clr_orange;
     font-weight: bold;
     margin:10px 0px;
+
+
 }
 
 .news_description {
     color:variables.$clr_font-black;
     font-weight: 600;
+    
+    @media screen and (min-width:960px){
+        margin: 0;
+    }
 }

@@ -3,7 +3,14 @@
 .big-box_up {
     background-image: url(../../images/homepage/palmy.png);
     background-size: cover;
+
+    @media screen and (min-width:960px){
+        flex: 0 0 766px;
+    }
 }
+
+
+
 .small-box_up-1 {
     background-image: url(../../images/homepage/jezero2.png);
     background-size: cover;
@@ -13,6 +20,13 @@
         flex: 0 0 48.5%;
         margin: 20px 10px 20px 0px;
     }
+
+    @media screen and (min-width:960px){
+        flex: 1 1 374px;
+        height: 180px;
+        margin: 0px 0px 10px 20px;
+    }
+
 }
 .small-box_up-2 {
     background-image: url(../../images/homepage/nakole.png);
@@ -21,10 +35,20 @@
     @media screen and (min-width:768px){
     margin: 20px 0 20px 10px;
     }
+
+    @media screen and (min-width:960px){
+        flex: 1 1 33%;
+        height: 180px;
+        margin: 0px 0px 0px 20px;
+    }
 }
 .big-box_down {
     background-image: url(../../images/homepage/lodicka.png);
     background-size: cover;
+
+    @media screen and (min-width:960px){
+        flex: 0 0 766px;
+    }
 }
 .small-box_down-1 {
     background-image: url(../../images/homepage/zatoka.png);
@@ -35,6 +59,12 @@
         flex: 0 0 48.5%;
         margin: 20px 10px 20px 0px;
     }
+
+    @media screen and (min-width:960px){
+        flex: 1 1 374px;
+        height: 180px;
+        margin: 0px 20px 10px 0px;
+    }
 }
 .small-box_down-2 {
     background-image: url(../../images/homepage/nakole.png);
@@ -43,6 +73,27 @@
     @media screen and (min-width:768px){
         flex: 0 0 48.5%;
         margin: 20px 0 20px 10px;
+    }
+
+    @media screen and (min-width:960px){
+        flex: 1 1 33%;
+        height: 180px;
+        margin: 0px 20px 0px 0px;
+    }
+}
+
+.box_images_up{
+    @media screen and (min-width:960px){
+        display: flex;
+        flex: row;
+        height: 380px;
+    }
+}
+.box_images_down {
+    @media screen and (min-width:960px){
+        display: flex;
+        flex-direction: row-reverse;
+        height: 380px;
     }
 }
 
@@ -63,6 +114,10 @@
     @media screen and (min-width:768px){
         margin: 225px 0 16px 20px;
     }
+
+    @media screen and (min-width:960px){
+        margin: 200px 0 16px 20px;
+    }
 }
 
 .big-box_description {
@@ -82,6 +137,11 @@
         font-size: 18px;
     }
 
+    @media screen and (min-width:960px){
+        margin:60px 110px 23px 20px;
+        display: inline-block;
+    }
+
 }
 
 .small-box_description_kanarske-ostrovy{
@@ -94,5 +154,10 @@
 .small-box_flex {
     @media screen and (min-width:768px){
         display: flex;
+    }
+
+    @media screen and (min-width:960px){
+        flex-direction: column;
+        height: 380px;
     }
 }
